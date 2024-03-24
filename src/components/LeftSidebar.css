@@ -1,0 +1,117 @@
+.left-sidebar {
+    position: fixed; /* Fix the sidebar to the left */
+    top: 0;
+    left: 0;
+    width: 250px; /* Adjust the width as needed */
+    height: 100vh; /* Make it full height */
+    background-color: #ffffff; /* Set the background color */
+    padding: 20px; /* Add some padding */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds height */
+    border-right: 1px solid #ccc;
+}
+  
+  .write-post-button {
+    background-color: #007bff; /* Standard blue color */
+    color: white; /* White text for contrast */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 25px; /* Slightly rounded corners */
+    font-size: 18px; /* Slightly larger text */
+    cursor: pointer; /* Hand icon on hover */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+    width: 100%; /* Make the button full width */
+    margin-bottom: 20px; /* Add some space below the button */
+  }
+  
+  .write-post-button:hover {
+    background-color: #0062cc; /* Slightly darker blue on hover */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle drop shadow */
+  }
+  
+  .menu-items {
+    list-style: none; /* Remove default list markers */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .menu-items li {
+    display: flex; /* Align items horizontally */
+    align-items: center; /* Center items vertically */
+    padding: 10px 0; /* Add some padding */
+    cursor: pointer; /* Hand icon on hover */
+  }
+  
+  .menu-items li span {
+    margin-right: 10px; /* Add some space between icon and text */
+  }
+  
+  .preferences {
+    margin-top: 150px;/* Add some space above the preferences section */
+  }
+  
+  .preferences ul {
+    list-style: none; /* Remove default list markers */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .preferences li {
+    display: flex; /* Align items horizontally */
+    align-items: center; /* Center items vertically */
+    padding: 5px 0; /* Add some padding */
+    cursor: pointer; /* Hand icon on hover */
+  }
+  
+  .preferences li span {
+    margin-right: 10px; /* Add some space between icon and text */
+  }
+  
+  .word-count {
+    background-color: #b4b7ba90;
+    margin-top: 20px;
+    display: grid; /* Enable grid layout */
+    border-radius: 25px;
+    grid-template-rows: auto 1fr; /* Create two rows: one for word count info, one for progress bar */
+    border: 1px solid #ccc; /* Add a border to the box */
+    padding: 10px; /* Add some padding */
+  }
+
+  .word-count-info {
+    display: flex;
+    font-size: 15px; /* Enable flexbox */
+    align-items: center; /* Align items vertically */
+  }
+
+  .word-count p {
+    margin: 2px;/* Remove default margin */
+  }
+  .word-count-value {
+    margin-left: 10px; /* Add a 10-pixel gap to the left */
+  }
+
+  .word-count-monthly-usage{
+    margin-left: 8px; /* Add a 10-pixel gap to the left */
+  }
+  
+  
+  .word-count-bar {
+    width: 100%; /* Make the progress bar full width */
+    /* Add some space below the progress bar */
+  }
+  
+  .upgrade-plan-button {
+    background-color: #f9f9fa; /* Standard blue color */
+    color: rgba(108, 105, 105, 0.778); /* White text for contrast */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 25px; /* Slightly rounded corners */
+    font-size: 16px; /* Slightly larger text */
+    cursor: pointer; /* Hand icon on hover */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+    width: 100%; /* Make the button full width */
+  }
+  
+  .upgrade-plan-button:hover {
+    background-color: #0062cc; /* Slightly darker blue on hover */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle drop shadow */
+  }
