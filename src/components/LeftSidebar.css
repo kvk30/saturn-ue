@@ -1,0 +1,31 @@
+/* src/components/LeftSidebar.css */
+
+.left-sidebar {
+    position: fixed; /* Fix the sidebar to the left */
+    top: 0;
+    left: 0;
+    width: 250px; /* Adjust the width as needed */
+    height: 100vh; /* Make it full height */
+    background-color: #f0f0f0; /* Set the background color */
+    padding: 20px; /* Add some padding */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds height */
+  }
+
+  .write-post-button {
+    background-color: #007bff; /* Standard blue color */
+    color: white; /* White text for contrast */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 25px; /* Slightly rounded corners */
+    font-size: 18px; /* Slightly larger text */
+    cursor: pointer; /* Hand icon on hover */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+  }
+  
+  .write-post-button:hover {
+    background-color: #0062cc; /* Slightly darker blue on hover */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle drop shadow */
+  }
+
+  
+  /* ... (Styling for other elements) ... */
