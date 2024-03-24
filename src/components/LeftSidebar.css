@@ -67,31 +67,41 @@
   }
   
   .word-count {
+    background-color: #b4b7ba90;
     margin-top: 20px;
+    display: grid; /* Enable grid layout */
+    border-radius: 25px;
+    grid-template-rows: auto 1fr; /* Create two rows: one for word count info, one for progress bar */
+    border: 1px solid #ccc; /* Add a border to the box */
+    padding: 10px; /* Add some padding */
   }
 
   .word-count-info {
-    display: flex; /* Enable flexbox */
+    display: flex;
+    font-size: 15px; /* Enable flexbox */
     align-items: center; /* Align items vertically */
   }
 
+  .word-count p {
+    margin: 2px;/* Remove default margin */
+  }
   .word-count-value {
     margin-left: 10px; /* Add a 10-pixel gap to the left */
   }
-  
-  .word-count p {
-    margin: 5px;
-     /* Remove default margin */
+
+  .word-count-monthly-usage{
+    margin-left: 8px; /* Add a 10-pixel gap to the left */
   }
   
-  .word-count progress {
+  
+  .word-count-bar {
     width: 100%; /* Make the progress bar full width */
-    margin-bottom: 10px; /* Add some space below the progress bar */
+    /* Add some space below the progress bar */
   }
   
   .upgrade-plan-button {
-    background-color: #007bff; /* Standard blue color */
-    color: white; /* White text for contrast */
+    background-color: #f9f9fa; /* Standard blue color */
+    color: rgba(108, 105, 105, 0.778); /* White text for contrast */
     border: none; /* Remove default border */
     padding: 10px 20px; /* Adjust padding as needed */
     border-radius: 25px; /* Slightly rounded corners */

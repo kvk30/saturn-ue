@@ -5,10 +5,11 @@ function LeftSidebar() {
   return (
     
       <div className="left-sidebar">
-        <button className="write-post-button">
-          <span className="fas fa-pencil-alt"></span> Write Post
-        </button>
+        
         <ul className="menu-items">
+          <button className="write-post-button">
+            <span className="fas fa-pencil-alt"></span> Write Post
+          </button>
           <li>
             <span className="fas fa-bolt"></span> Post Generator
           </li>
@@ -42,13 +43,16 @@ function LeftSidebar() {
           </ul>
         </div>
         <div className="word-count">
-        <div className="word-count-info">
-          <p>Words generated <i className="fas fa-info-circle"></i></p><p className="word-count-value">1.25k / 50k</p>
+          
+            <div className="word-count-info">
+              <p className='word-count-text'>Words generated <i className="fas fa-info-circle"></i></p>
+              <p className="word-count-value">1.25k / 50k</p>
           
           </div>
-          <progress value="1.25" max="50"></progress>
-          <p>Monthly usage resets in 29 days</p>
-          <br></br>
+          
+          <progress value="1.25" max="50" className='word-count-bar'></progress>
+          <p className='word-count-monthly-usage'>Monthly usage resets in 29 days</p>
+          
           <button className="upgrade-plan-button">
             <span className="fas fa-bolt"></span> Upgrade Plan
           </button>
